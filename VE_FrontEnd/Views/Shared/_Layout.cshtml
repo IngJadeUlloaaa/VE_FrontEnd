@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Environment</title>
+    <link href="~/Content/Css/Login.css" rel="stylesheet" />
+    <link href="~/Content/Css/VE.css" rel="stylesheet" />
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script src="@Url.Content("~/Scripts/App/Login.js")"></script>
+    <script src="@Url.Content("~/Scripts/App/VE.js")"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>

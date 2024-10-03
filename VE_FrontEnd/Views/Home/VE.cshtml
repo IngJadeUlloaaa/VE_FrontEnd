@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "VE";
+}
+
+<main class="father-container-ve">
+    <!-- first child -->
+    <div class="first-child-container-ve">
+        <ul class="ul-container-fchild-ve">
+            <li class="li-fchild-ve"> <a href="#contenido-home" onclick="cambiarContenido('contenido-home')">
+                <img class="icon-li-fchild-ve activeReingreso" src="~/Content/Imagenes/Icons/homeIcon.png" alt="" /></a>
+            </li>
+            <li class="li-fchild-ve"> <a href="#contenido-profile" onclick="cambiarContenido('contenido-profile')">
+                <img class="icon-li-fchild-ve" src="~/Content/Imagenes/Icons/profileIcon.png" alt="" /></a>
+            </li>
+            <li class="li-fchild-ve" onclick="cambiarContenido('contenido-audit')">
+                <a href="#contenido-audit">
+                    <img class="icon-li-fchild-ve" src="~/Content/Imagenes/Icons/auditIcon.png" alt="" />
+                </a>
+            </li>
+            <li class="li-fchild-ve" onclick="cambiarContenido('contenido-pending-subject')">
+                <a href="#contenido-pending-subject">
+                    <img class="icon-li-fchild-ve" src="~/Content/Imagenes/Icons/pendingSubjectIcon.png" alt="" />
+                </a>
+            </li>
+            <li class="li-fchild-ve" onclick="cambiarContenido('contenido-subject-report-card')">
+                <a href="#contenido-subject-report-card">
+                    <img class="icon-li-fchild-ve" src="~/Content/Imagenes/Icons/subjectReportCardIcon.png" alt="" />
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- second child -->
+    <section class="second-child-container-ve">
+        <!-- HOME -->
+        <article id="contenido-derecha" class="home-container-schild-container-ve">
+            <div id="contenido-home" class="father-block-container-schild-container-ve">
+                <!-- first block -->
+                <div class="first-block-container-schild-container-ve">
+                    <img class="icon-fblock-container-schild-container-ve" src="~/Content/Imagenes/Icons/rocketIcon.png" alt="Alternate Text" />
+                    <div class="div-fblock-container-schild-container-ve">
+                        <h1 class="title-div-fblock-container-schild-container-ve">Welcome to Virtual Environment</h1>
+                        <span class="span-div-fblock-container-schild-container-ve">In this section you will find all the sections related to the student's institutional information.</span>
+                    </div>
+                    <div class="img-container-fblock-container-schild-container-ve">
+                        <img class="img-fblock-container-schild-container-ve" src="~/Content/Imagenes/Icons/studentIcon.png" alt="Alternate Text" />
+                    </div>
+                </div>
+                <!-- second block -->
+                <article class="second-block-container-schild-container-ve">
+                    <!-- first card -->
+                    <div class="first-card-sblock-container-schild-container-ve">
+                        <img class="img-fcard-sblock-container-schild-container-ve" src="~/Content/Imagenes/Icons/arrowIcon.png" alt="Alternate Text" />
+                        <h1 class="title-fcard-sblock-container-schild-container-ve">Vision</h1>
+                        <p class="p-fcard-sblock-container-schild-container-ve">The University of Managua, will consolidate as a reference institution, for the quality in the training of professionals, its social commitment, scientific visibility.</p>
+                    </div>
+
+                    <!-- second card -->
+                    <div class="first-card-sblock-container-schild-container-ve">
+                        <h1 class="title-fcard-sblock-container-schild-container-ve">Mision</h1>
+                        <p class="p-fcard-sblock-container-schild-container-ve">We are a private institution of Higher Education, with an innovative, efficient and socially responsible management.</p>
+                    </div>
+
+                    <!-- third card -->
+                    <div class="first-card-sblock-container-schild-container-ve">
+                        <h1 class="title-fcard-sblock-container-schild-container-ve">Values</h1>
+                        <p class="p-fcard-sblock-container-schild-container-ve">They constitute the basis of a philosophy for the management of the institution and the implementation of the principles, objectives and policies of the University.</p>
+                    </div>
+                </article>
+            </div>
+        </article>
+
+        <!-- PROFILE -->
+        <section id="contenido-derecha" style="display: none;">
+            <div id="contenido-profile">
+                <h1>hello world</h1>
+            </div>
+        </section>
+    </section>
+</main>

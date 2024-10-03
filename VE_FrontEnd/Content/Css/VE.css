@@ -1,0 +1,184 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+/* Variables */
+:root {
+    --backgroundColor: #211C33;
+    --gray-rgb: 128, 128, 128;
+    --purple: #6100FF;
+    --pink: #AB47BC;
+    --gray: #808080;
+    --white: #ffffff;
+    --description: #D8D8D8;
+    --factive: #AB47BC;
+    --sactive: #8E24AA;
+}
+
+/* father container */
+.father-container-ve {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backgroundColor);
+    display: flex;
+}
+
+/* first container */
+.first-child-container-ve {
+    width: 8%;
+    height: 100%;
+    background-color: rgba(var(--gray-rgb), 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ul container */
+.ul-container-fchild-ve {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* li */
+.li-fchild-ve:hover{
+    cursor: pointer;
+}
+
+/* second child */
+.second-child-container-ve{
+    width: 92%;
+    height: 100%;
+}
+
+/* home container */
+.home-container-schild-container-ve {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* father container */
+.father-block-container-schild-container-ve {
+    width: 90%;
+    height: 70%;
+    /*  border: 1px solid white;*/
+}
+
+/* first block */
+.first-block-container-schild-container-ve {
+    width: 100%;
+    height: 350px; /* here */
+    display: flex;
+    border-radius: 25px;
+    background: linear-gradient(to right, var(--purple) 30%, var(--pink) 100%);
+}
+
+/* rocket icon */
+.icon-fblock-container-schild-container-ve {
+    position: absolute;
+    left: 108rem;
+    top: 7rem;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* div container */
+.div-fblock-container-schild-container-ve{
+    width: 50%;
+    height: auto;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* h1 */
+.title-div-fblock-container-schild-container-ve {
+    font-size: 40px;
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* p */
+.span-div-fblock-container-schild-container-ve {
+    font-size: 20px;
+    color: var(--description);
+}
+
+/* img container */
+.img-container-fblock-container-schild-container-ve{
+    width: 50%;
+    height: auto;
+}
+
+/* img */
+.img-fblock-container-schild-container-ve {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 13.9rem;
+    left: 85rem;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* second container */
+.second-block-container-schild-container-ve{
+    width: 100%;
+    height: 50%; /* here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+/* cards */
+.first-card-sblock-container-schild-container-ve {
+    width: 500px;
+    height: 250px;
+    padding: 3rem 2rem;
+    border-radius: 25px;
+    background: linear-gradient(to right, var(--purple) 20%, var(--pink) 100%);
+}
+
+/* arrow icon */
+.img-fcard-sblock-container-schild-container-ve {
+    position: absolute;
+    top: 30rem;
+    left: 11rem;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* h1 card */
+.title-fcard-sblock-container-schild-container-ve {
+    font-size: 36px;
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* p card */
+.p-fcard-sblock-container-schild-container-ve{
+    font-size: 16px;
+    color: var(--description);
+}
+
+.activeReingreso {
+    width: auto;
+    height: auto;
+    padding: 14px;
+    background: linear-gradient(to bottom, var(--factive) 0%, var(--sactive) 51%);
+    border-radius: 50px;
+}
+
+#contenido-profile {
+    color: red;
+}
